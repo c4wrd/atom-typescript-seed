@@ -1,6 +1,6 @@
 import { BufferedProcess } from "atom";
 
-module plugin {
+module typescript_seed {
 
     /**
      * Spawn an external process, which simply
@@ -15,9 +15,10 @@ module plugin {
         var proc = new BufferedProcess(args);
         console.log("BufferedProcess Started");
     }
+
 }
 
 export function activate(state) {
-    atom.commands.add('atom-workspace', 'plugin:Process', plugin.execute_process);
+    atom.commands.add('atom-workspace', 'typescript_seed:Process', typescript_seed.execute_process);
     return true;
 }
