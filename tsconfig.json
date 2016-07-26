@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "rootDir": "lib",
+    "outDir": "dist",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "filesGlob": [
+    "lib/plugin/**/*.ts",
+    "typings/index.d.ts"
+  ],
+  "exclude": [
+    "lib/node_modules/**"
+  ]
+}

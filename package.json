@@ -1,0 +1,14 @@
+{
+  "name": "plugin",
+  "main": "./dist/plugin/index.js",
+  "version": "0.0.0",
+  "description": "An Atom project seed written in TypeScript",
+  "repository": "https://github.com/atom/my-package",
+  "activationEvents": [
+    "plugin:dev"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
